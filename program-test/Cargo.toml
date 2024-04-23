@@ -7,7 +7,8 @@ repository = { workspace = true }
 homepage = { workspace = true }
 license = { workspace = true }
 edition = { workspace = true }
-
+# Fix all dependencies in this fork, so that program-test (the only thing that has been changed)
+# can be built and published by itself
 [dependencies]
 assert_matches = { workspace = true }
 async-trait = { workspace = true }
